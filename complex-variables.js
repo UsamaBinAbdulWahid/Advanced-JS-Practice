@@ -69,3 +69,17 @@ const numbers = [num1, num2, num3, num4, num5, num6, num7, num8, num9, num10];
 const largest = Math.max(...numbers);
 const smallest = Math.min(...numbers);
 console.log(`Largest: ${largest}, Smallest: ${smallest}`);
+
+// Performing complex arithmetic operations.
+// Add two numbers, multiply by a third, and print.
+const complexResult1 = (num1 + num2) * num3;
+console.log(`Complex Result 1: ${complexResult1}`);
+
+// Add three numbers, divide by another, and print.
+const complexResult3 = (num7 + num8 + num9) / num10;
+console.log(`Complex Result 3: ${complexResult3}`);
+
+// Greeting Message
+// Ask for user's name and display a greeting.
+const userName = prompt("What is your name?");
+alert(`Hello, ${userName}! Welcome!`);
