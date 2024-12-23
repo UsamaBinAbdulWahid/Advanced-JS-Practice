@@ -44,3 +44,6 @@ console.log(
   `Ends with: '${specifiedWordEnds}':`,
   sentence.endsWith(specifiedWordEnds)
 );
+
+//Split sentence into array of words
+console.log("Array of words is:", sentence.split(""));
