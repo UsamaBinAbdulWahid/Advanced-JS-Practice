@@ -6,5 +6,5 @@ let student = {
 };
 console.log("Student Details: ", student);
 //Adding a new property
-student.grade = A;
+student.grade = "A";
 console.log("Updated Student Details: ", student);
