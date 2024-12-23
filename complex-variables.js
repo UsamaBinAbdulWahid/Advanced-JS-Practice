@@ -36,3 +36,16 @@ console.log(`${fullName} says: "${favoriteQuote}"`); // Combining and printing a
 
 // Calculating the total number of characters in the favorite quote.
 console.log(`The quote has ${favoriteQuote.length} characters.`);
+
+// Part 2: Working with Numbers
+// Creating 10 variables using var, let, and const.
+let num1 = 5,
+  num2 = 10;
+const num3 = 15,
+  num4 = 20;
+var num5 = 25;
+let num6 = 30,
+  num7 = 35;
+const num8 = 40,
+  num9 = 45;
+var num10 = 50;
