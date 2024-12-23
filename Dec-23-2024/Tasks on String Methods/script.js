@@ -47,3 +47,8 @@ console.log(
 
 //Split sentence into array of words
 console.log("Array of words is:", sentence.split(""));
+
+//Replace a specified word in whole sentence
+let paragraph = "I am good. He is good. They all are good.";
+let replacedParagraph = paragraph.replace(/good/g, "excellent");
+console.log("Replaced Paragraph is: ", replacedParagraph);
