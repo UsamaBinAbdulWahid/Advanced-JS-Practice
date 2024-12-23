@@ -9,5 +9,18 @@ var oldStyleVariable = 30; // Using var (older syntax, less preferred).
 mutableVariable = 15; // Allowed
 oldStyleVariable = 35; // Allowed
 
-// Attempting to reassign const:
 // constantVariable = 25; // This will throw an error "Cannot reassign block" because const variables cannot be reassigned.
+
+/* Identify Data Types:
+Declaring variables of different types and logging their types. */
+const stringVariable = "Hello, World!"; // String\const numberVariable = 42; // Number
+const booleanVariable = true; // Boolean
+const objectVariable = { key: "value" }; // Object
+const arrayVariable = [1, 2, 3]; // Array
+
+// Logging data types
+console.log(typeof stringVariable); // "string"
+console.log(typeof numberVariable); // "number"
+console.log(typeof booleanVariable); // "boolean"
+console.log(typeof objectVariable); // "object"
+console.log(typeof arrayVariable); // "object"
