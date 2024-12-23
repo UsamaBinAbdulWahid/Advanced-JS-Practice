@@ -32,3 +32,15 @@ console.log("Last word is: ", word[word.length - 1]);
 //Input a string and remove all the spaces. Display the modified string.
 let stringWithSpaces = "Remove all spaces in this string!";
 console.log("String without spaces:", stringWithSpaces.replace(/\s/g, ""));
+
+//Check if starts or ends with specific word
+let specifiedWordStarts = "Nothing";
+let specifiedWordEnds = "True";
+console.log(
+  `Start with: '${specifiedWordStarts}':`,
+  sentence.startsWith(specifiedWordStarts)
+);
+console.log(
+  `Ends with: '${specifiedWordEnds}':`,
+  sentence.endsWith(specifiedWordEnds)
+);
