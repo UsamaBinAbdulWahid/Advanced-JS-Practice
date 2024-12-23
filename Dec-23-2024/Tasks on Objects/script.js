@@ -26,3 +26,12 @@ let students = [
   { name: "Ahamd", age: 23, class: "12th" },
 ];
 console.log("Students:", students);
+
+//Create a book object
+let book = {
+  title: "JavaScript Essentials",
+  author: "Jane Doe",
+  availability: true,
+};
+book.availability = false;
+console.log("Updated book details:", book);
