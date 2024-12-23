@@ -28,3 +28,7 @@ console.log(`${sentence} => ${letter} => ${counter}`);
 let word = sentence.split(" ");
 console.log("First word is: ", word[0]);
 console.log("Last word is: ", word[word.length - 1]);
+
+//Input a string and remove all the spaces. Display the modified string.
+let stringWithSpaces = "Remove all spaces in this string!";
+console.log("String without spaces:", stringWithSpaces.replace(/\s/g, ""));
