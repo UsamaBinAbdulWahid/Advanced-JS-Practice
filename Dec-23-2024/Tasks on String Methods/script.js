@@ -1,27 +1,30 @@
 // Tasks on String Methods
 
 //Input a string for manipulation
-let string = "Enter a string";
+let sentence = "Enter a sentence or something";
 
 // Convert the sentence to all uppercase and all lowercase and display the results.
-console.log("Uppercase: ", string.toUpperCase());
-console.log("Lowercase: ", string.toLowerCase());
+console.log("Uppercase: ", sentence.toUpperCase());
+console.log("Lowercase: ", sentence.toLowerCase());
 
 //Count the total number of characters (including spaces).
-console.log("Length of string is: ", string.length);
+console.log("Length of sentence is: ", sentence.length);
 
 //Count how many times a specific character (e.g., 'a') appears in the string.
-//Using the string that we already defined
+//Using the string/sentence that we already defined
 let letter = "r";
-let strLen = string.length;
-console.log("String length: " + strLen);
+let strLen = sentence.length;
+console.log("Sentence length: " + strLen);
 
 let counter = 0;
 for (let i = 0; i < strLen; i++) {
-  if (string[i] == letter) {
+  if (sentence[i] == letter) {
     counter++;
   }
 }
-console.log(`${string} => ${letter} => ${counter}`);
+console.log(`${sentence} => ${letter} => ${counter}`);
 
-
+//Extract the first word and the last word from a sentence and display them separately.
+let word = sentence.split(" ");
+console.log("First word is: ", word[0]);
+console.log("Last word is: ", word[word.length - 1]);
