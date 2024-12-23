@@ -33,3 +33,6 @@ const fullName = "Usama Wahid";
 const favoriteQuote =
   "The only limit to our realization of tomorrow is our doubts of today.";
 console.log(`${fullName} says: "${favoriteQuote}"`); // Combining and printing a meaningful message.
+
+// Calculating the total number of characters in the favorite quote.
+console.log(`The quote has ${favoriteQuote.length} characters.`);
