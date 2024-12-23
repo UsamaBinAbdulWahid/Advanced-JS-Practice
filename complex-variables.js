@@ -83,3 +83,19 @@ console.log(`Complex Result 3: ${complexResult3}`);
 // Ask for user's name and display a greeting.
 const userName = prompt("What is your name?");
 alert(`Hello, ${userName}! Welcome!`);
+
+// Simple Calculator
+// Ask for two numbers and perform operations.
+const firstNumber = parseFloat(prompt("Enter the first number:"));
+const secondNumber = parseFloat(prompt("Enter the second number:"));
+
+const addition = firstNumber + secondNumber;
+const subtraction = firstNumber - secondNumber;
+const multiplication = firstNumber * secondNumber;
+const division = firstNumber / secondNumber;
+
+alert(`Results:
+Addition: ${addition}
+Subtraction: ${subtraction}
+Multiplication: ${multiplication}
+Division: ${division}`);
