@@ -24,3 +24,12 @@ console.log(typeof numberVariable); // "number"
 console.log(typeof booleanVariable); // "boolean"
 console.log(typeof objectVariable); // "object"
 console.log(typeof arrayVariable); // "object"
+
+// String Manipulation
+const myName = "Usama"; // Replace with your name.
+console.log(`Welcome, ${myName}!`); // Printing a welcome message.
+
+const fullName = "Usama Wahid";
+const favoriteQuote =
+  "The only limit to our realization of tomorrow is our doubts of today.";
+console.log(`${fullName} says: "${favoriteQuote}"`); // Combining and printing a meaningful message.
