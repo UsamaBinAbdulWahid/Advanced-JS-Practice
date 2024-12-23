@@ -49,3 +49,23 @@ let num6 = 30,
 const num8 = 40,
   num9 = 45;
 var num10 = 50;
+
+// Calculating the SUM and printing the result.
+const sum =
+  num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10;
+console.log(`SUM: ${sum}`);
+
+// Finding the AVERAGE and printing the result.
+const average = sum / 10;
+console.log(`AVERAGE: ${average}`);
+
+// Multiplying all numbers and printing the PRODUCT.
+const product =
+  num1 * num2 * num3 * num4 * num5 * num6 * num7 * num8 * num9 * num10;
+console.log(`PRODUCT: ${product}`);
+
+// Identifying the largest and smallest numbers.
+const numbers = [num1, num2, num3, num4, num5, num6, num7, num8, num9, num10];
+const largest = Math.max(...numbers);
+const smallest = Math.min(...numbers);
+console.log(`Largest: ${largest}, Smallest: ${smallest}`);
